@@ -1,26 +1,24 @@
 /**
- * A palindrome is a sequence of characters which reads the same backwards and forwards, for example:
+ * Return true if the given string is a palindrome. Otherwise, return false.
+ * 
+ * A palindrome is a word or sentence that’s spelled the same way both forward and backward, 
+ * ignoring punctuation, case, and spacing.
  *
- *  "123454321"
- *
- *  "asdfggfdsa"
- *
- * In English palindromes we can ignore uppercase and lowercase, whitespaces and punctuation, as in:
- *
- *  "Madam, I'm Adam"
- *
- *  "Never odd or even"
- *
- *  "A man, a plan, a canal – Panama"
- *
- * In some languages, accents
- *
- * Write a function that can detect if a String is a language palindrome.
+ * Note. You’ll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) 
+ * and turn everything lower case in order to check for palindromes.
+ * 
+
  *
  * Extra points if you can come up with both a recursive and non-recursive approach
+
  *
  * Write a comprehensive set of Unit Tests
  *
+ * Hint: To search for all non-alphanumeric characters:
+ * Regex: /[^A-Za-z0–9]/g 
  */
 
-export const palindrome = () => {} 
+export const palindrome = () => {
+  console.log('Palindrome')
+} 
+palindrome();

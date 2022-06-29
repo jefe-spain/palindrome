@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "palindrome": "ts-node palindrome.ts",
+    "async": "ts-node async.ts",
     "test": "jest"
   },
   "author": "Jesus Fernandez",
